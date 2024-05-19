@@ -3013,7 +3013,34 @@
                 <div class="code-label">In [ ]:</div>
                 <textarea class="code-block" rows="3" placeholder="Enter code here..." oninput="adjustHeight(this)">import os
 for filename in os.listdir("D:/WEHI Internship/Demo/PDC/PDC0004/raw_data"):
-print(filename)</textarea>
+    print(filename)</textarea>
+            </div>
+            <div class="code-block-container">
+                <div class="code-label">In [ ]:</div>
+                <textarea class="code-block" rows="3" placeholder="Enter code here..." oninput="adjustHeight(this)">import os
+import pandas as pd
+import matplotlib.pyplot as plt
+                    
+def preprocess_data(filepath):
+    print(f"Preprocessing data from file: {filepath}")
+    # Simulate preprocessing logic
+    print("Preprocessing completed!")
+                    
+    def apply_filter(data):
+    print("Applying filter to data")
+    # Simulate filtering logic
+    print("Filtering data completed!")
+    return data
+                    
+    def perform_analysis(filtered_data):
+    print("Performing analysis on the filtered data")
+    # Simulate analysis logic
+    print("Analysis completed!")
+    return [1,2,3,4,5]
+                    
+                    
+    # Full path to the raw data directory (replace with your actual path)
+    raw_data_directory = r"D:/WEHI Internship/Demo/PDC/PDC0001/raw_data"</textarea>
             </div>
         </div>
         
